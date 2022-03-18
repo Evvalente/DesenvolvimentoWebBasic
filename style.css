@@ -1,0 +1,44 @@
+body {
+    font-family:arial narrow;
+    color:rgb(52, 119, 136);
+    text-align: center;
+    background-color:#FFFACD;
+    margin: 60px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+img {
+    width: 100px; 
+   
+    
+}
+
+.castelinho {
+    margin: 0.5px;
+    width: 550px; 
+ 
+    
+}
+
+h2 {
+    color:rgb(52, 119, 136);
+    
+}
+table {
+    color: chocolate;
+    margin-left:35%;
+    
+   
+}
+
+li {
+    text-decoration-line: underline;
+}
+
+footer {
+    color:#FFFACD;
+    background-color: orange;
+}
