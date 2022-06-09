@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste If e Else - OL </title>
+
+    <script>
+        var notaAluno = prompt('Digite a nota do aluno:')
+        var freqAluno = prompt('Digite a frequência do aluno: ')
+
+
+        var media = 6
+        var faltasmax = 20
+
+
+        // Se precisar de operação aritmética, vai dar errado. 
+        //Apenas dá certo, pois ele entende como duas strings comparativas.
+        
+        if(notaAluno >= media && freqAluno >= faltasmax){
+            document.write('APROVADO')
+        } else {
+            document.write('REPROVADO')
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
